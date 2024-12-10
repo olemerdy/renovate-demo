@@ -1,4 +1,4 @@
-FROM alpine/java:21.0.1-jdk
+FROM alpine/java:21.0.4-jdk
 RUN addgroup -S spring && adduser -S spring -G spring
 USER spring:spring
 ARG JAR_FILE=target/*.jar
