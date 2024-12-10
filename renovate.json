@@ -7,5 +7,7 @@
     "group:recommended",
     "replacements:all",
     "workarounds:all"
-  ]
+  ],
+  "lockFileMaintenance": true,
+  "transitiveRemediation": true
 }
