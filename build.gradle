@@ -14,6 +14,9 @@ java {
 }
 
 configurations {
+    compileClasspath {
+        resolutionStrategy.activateDependencyLocking()
+    }
     compileOnly {
         extendsFrom annotationProcessor
     }
@@ -21,6 +24,10 @@ configurations {
 
 repositories {
     mavenCentral()
+}
+
+dependencyLocking {
+    lockAllConfigurations()
 }
 
 dependencies {
