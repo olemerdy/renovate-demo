@@ -36,7 +36,7 @@ dependencies {
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 
     // Helping Dependabot?
-    implementation 'org.springframework:spring-jdbc:6.1.13'
+    implementation 'org.springframework:spring-jdbc:6.2.0'
 }
 
 tasks.named('test') {
